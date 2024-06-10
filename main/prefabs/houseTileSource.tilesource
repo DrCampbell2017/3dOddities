@@ -1,0 +1,135 @@
+image: "/assets/template/template_house_level.png"
+tile_width: 64
+tile_height: 64
+tile_margin: 0
+tile_spacing: 0
+collision: "/assets/template/template_house_level.png"
+material_tag: "tile"
+convex_hulls {
+  index: 0
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 8
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 12
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 16
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 20
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 24
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 28
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 32
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 36
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 40
+  count: 8
+  collision_group: ""
+}
+convex_hulls {
+  index: 48
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 48
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 52
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 56
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 60
+  count: 15
+  collision_group: ""
+}
+convex_hulls {
+  index: 75
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 75
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 79
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 83
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 87
+  count: 8
+  collision_group: ""
+}
+convex_hulls {
+  index: 95
+  count: 10
+  collision_group: ""
+}
+convex_hulls {
+  index: 105
+  count: 12
+  collision_group: ""
+}
+convex_hulls {
+  index: 117
+  count: 10
+  collision_group: ""
+}
+convex_hulls {
+  index: 127
+  count: 14
+  collision_group: ""
+}
+extrude_borders: 2
+inner_padding: 0
+sprite_trim_mode: SPRITE_TRIM_MODE_OFF

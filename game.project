@@ -1,0 +1,36 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /rendercam/rendercam.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+vsync = 0
+high_dpi = 1
+update_frequency = 60
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = 3D Oddities
+dependencies#0 = https://github.com/britzl/defold-input/archive/master.zip
+
+[html5]
+scale_mode = stretch
+
+[physics]
+use_fixed_timestep = 1
+max_fixed_timesteps = 1
+type = 3D
+gravity_y = -90.0
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
+
+[tilemap]
+max_count = 32
+

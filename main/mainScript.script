@@ -1,0 +1,28 @@
+----------
+-- Core --
+----------
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	-- #level_1_template
+	-- #level_2_template
+	msg.post("#level_2_template", "load")
+end
+
+function final(self)
+	msg.post(".", "release_input_focus")
+end
+
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("proxy_loaded") then
+		-- New world is loaded. Init and enable it.
+		msg.post(sender, "init")
+		msg.post(sender, "enable")
+		self.proxy = sender
+		print("Loaded!")
+
+	elseif message_id == hash("proxy_unloaded") then
+		print("Unloaded!")
+	end
+end
